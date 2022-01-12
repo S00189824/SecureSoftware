@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_Application
 {
+    [Serializable()]//Objects Of This Class Can Be Serialized
     public abstract class Bank_Account
     {
 
